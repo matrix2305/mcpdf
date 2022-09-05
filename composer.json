@@ -1,0 +1,22 @@
+{
+    "name": "matrix2305/mcpdf",
+    "description": "PHP wrapper for mcpdf",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "matrix2305\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "matrix2305",
+            "email": "srki.rado@gmail.com"
+        }
+    ],
+    "version": "1.0",
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/process": "^6.1"
+    }
+}
